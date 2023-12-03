@@ -1,0 +1,13 @@
+.similar-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+}
+.similar-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px ;
+}

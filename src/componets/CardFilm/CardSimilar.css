@@ -1,0 +1,37 @@
+.cardsimilar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.cardsimilar{
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.cardsimilar:hover {
+    transform: scale(1.05);
+}
+
+.cardsimilar img {
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cardsimilar h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cardsimilar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cardsimilar a:hover {
+    text-decoration: underline;
+}

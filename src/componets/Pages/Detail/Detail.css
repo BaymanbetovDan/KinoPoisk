@@ -1,0 +1,35 @@
+.contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+}
+.detail-img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.detail-info {
+    text-align: left;
+}
+
+.detail-info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.detail-info p:last-child {
+    margin-bottom: 0;
+}
+
+.detail-info p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.detail-info p span {
+    color: #777;
+}
